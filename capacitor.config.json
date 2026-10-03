@@ -1,0 +1,11 @@
+{
+  "appId": "com.pagewise.reader",
+  "appName": "Pagewise Reader",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

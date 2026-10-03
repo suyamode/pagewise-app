@@ -1,0 +1,23 @@
+{
+  "name": "pagewise-reader",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pagewise Reader: EPUB, PDF and text reader, wrapped with Capacitor",
+  "scripts": {
+    "assets": "capacitor-assets generate --android",
+    "sync": "cap sync android",
+    "open": "cap open android",
+    "setup:android": "bash scripts/setup-android.sh",
+    "release:aab": "cd android && ./gradlew bundleRelease",
+    "debug:apk": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.5.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.5.2"
+  }
+}
